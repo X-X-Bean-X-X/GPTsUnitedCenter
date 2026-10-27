@@ -1,0 +1,659 @@
+{
+  "asset": "GPT's United Center",
+  "author": "X_Bean_X",
+  "publishedVersion": "1.1.0",
+  "publishedPackageSHA256": "ac46989ee53f55b3e1507b4df55887573d5e31a60d58d0f449319a2640864db0",
+  "authoringFiles": [
+    {
+      "path": "Evidence/live_site_survey.json",
+      "bytes": 92031,
+      "sha256": "73c8fd62424da12618d338035b23bba797a4a7b5e3efa48eb140626d104af464"
+    },
+    {
+      "path": "Evidence/live_site_survey2.json",
+      "bytes": 95822,
+      "sha256": "da13dfee37195c82f543343127d0ab9d90f7ff6dff1babc0cd808c77876b5304"
+    },
+    {
+      "path": "Evidence/osm_site_buildings.json",
+      "bytes": 17029,
+      "sha256": "3f6304fd82c8e8820938bc89fe1b40992a3c1d91570b41fac550ba48c0558e5a"
+    },
+    {
+      "path": "Evidence/perimeter-current-site.json",
+      "bytes": 95829,
+      "sha256": "dbba66923b53a0872e718f870fa3950721119585dff123982ccac10d22bf4b67"
+    },
+    {
+      "path": "Evidence/projected_site_origin.json",
+      "bytes": 266,
+      "sha256": "100c995c709e11ee8783c5b9f66d686fad13729e0d2dd21a5b7471e18830f183"
+    },
+    {
+      "path": "Evidence/resume_site.json",
+      "bytes": 95820,
+      "sha256": "5deca941e46505c069ba8e6c206ed8fa3be741103d23e61def9607e081ac0aeb"
+    },
+    {
+      "path": "Evidence/site_camera.json",
+      "bytes": 154,
+      "sha256": "3943e6d080a1134f1795b79778062e65d328be00ea667c148681dbe406426daa"
+    },
+    {
+      "path": "Evidence/site_clearance_decision.json",
+      "bytes": 451,
+      "sha256": "188d83faf301b9d05aaa596fbc9cead32c153ab070c9e4696e6863031b54d18b"
+    },
+    {
+      "path": "Evidence/site_measurements.json",
+      "bytes": 24409,
+      "sha256": "9a164b7767355786785b5e81ff657b7acc13ba91e46c71a7955a85c37b46614f"
+    },
+    {
+      "path": "References/city_footprint.json",
+      "bytes": 3544,
+      "sha256": "f3197e337fa7edadfdf0224ce45fdfbbc40b144efe5889f7f4eccadc0975b990"
+    },
+    {
+      "path": "Scripts/UCRegenerate20261022_v1.cs",
+      "bytes": 7530,
+      "sha256": "46e24c61edf8fdbbf0efa75961b96e58ea3e1fa3965f556fc9b4f6b2c20dda6b"
+    },
+    {
+      "path": "Scripts/UCRegenerate20261022_v2.cs",
+      "bytes": 7530,
+      "sha256": "de29d1508357222c3322ee9560f2a1d2140a5d2de428bf8c8dc9d447443c28b6"
+    },
+    {
+      "path": "Scripts/build_lod_sources.py",
+      "bytes": 1455,
+      "sha256": "7e5240d3e9565d1f651592763251d830e58cf5fe09ea9ad63ba5f2954f5d115b"
+    },
+    {
+      "path": "Scripts/build_united_center.py",
+      "bytes": 16741,
+      "sha256": "0149bc688573e6ce92bc54911de82148bb4ee4df3edaed8787dc4d1ab1da9ade"
+    },
+    {
+      "path": "Scripts/build_united_center_v011.py",
+      "bytes": 18888,
+      "sha256": "049299cb7829491bf05ac8043573c8ab1399638e035d13bdd8a8699a6468fca7"
+    },
+    {
+      "path": "Scripts/build_united_center_v012.py",
+      "bytes": 18889,
+      "sha256": "edb1d49cfdfdfb47d202b2bee00de12d7fa836ff41def693d67842784966dd10"
+    },
+    {
+      "path": "Scripts/build_united_center_v013.py",
+      "bytes": 17738,
+      "sha256": "fc581bc8379581e671e08590bddf93f8b71fc75e39c16cae18fcc60fecabc61e"
+    },
+    {
+      "path": "Scripts/build_united_center_v014.py",
+      "bytes": 17832,
+      "sha256": "2f8388a4644cb590a27110c970f55636ab6ffce3c1623ab5d07532fd0de7f580"
+    },
+    {
+      "path": "Scripts/build_united_center_west.pre-flicker-v009.py",
+      "bytes": 17306,
+      "sha256": "e349cfe8f20bd25337d6c99be8852dcf22befbf9f324acb0118f6c4986edab84"
+    },
+    {
+      "path": "Scripts/build_united_center_west.py",
+      "bytes": 17341,
+      "sha256": "cea6429702567b0bb0647ec85fdaffc298533cd60caa6ecefee53b6b6c2ca76e"
+    },
+    {
+      "path": "Scripts/rebuild_roof.py",
+      "bytes": 1745,
+      "sha256": "32f0d8cfa2327befef0cb4a9d43d8cbd3eaa5273afe643e7d8087428af1557f2"
+    },
+    {
+      "path": "Scripts/rebuild_v011.py",
+      "bytes": 2139,
+      "sha256": "cb88c696e667ca9b43928f5c0b31ef8d48c4a4d591e2ebdfdc8aede0b49d39ad"
+    },
+    {
+      "path": "Scripts/rebuild_v012.py",
+      "bytes": 2540,
+      "sha256": "bccea16c833d2e4fb20c57de55f6a971c40d24cbdc3cd275303e7628aa593fff"
+    },
+    {
+      "path": "Scripts/rebuild_v013.py",
+      "bytes": 2540,
+      "sha256": "25b3d0dcb947f7c3dbbcae0438b7815959ef949542e29d9162b16cbf17dc3461"
+    },
+    {
+      "path": "Scripts/rebuild_v014.py",
+      "bytes": 2540,
+      "sha256": "72d30cb679800d1ff375df2638a951e8140f148ec7c87c829cd70aad9fe1d2d2"
+    },
+    {
+      "path": "Scripts/rebuild_west.py",
+      "bytes": 2129,
+      "sha256": "1e9526fa1fc2d956a1bbe7e6797702f0e7c984369d2ebfa20e53df79409f56dd"
+    },
+    {
+      "path": "Scripts/refine_lighting_patterns.py",
+      "bytes": 1644,
+      "sha256": "fe88113e7f8adf60983bb8c317325de192c74d312a60dca9fddaacc54f086880"
+    },
+    {
+      "path": "Scripts/refine_west_patterns.py",
+      "bytes": 1697,
+      "sha256": "9783789310791d834e6d7fe86f4290a9db07d3dc897d3f11cff1196cf1736a95"
+    },
+    {
+      "path": "Source/UnitedCenter_v001.blend",
+      "bytes": 865996,
+      "sha256": "8ca5831e4c0a3037c456d01e7063bc12e91beebaa8ace035e423656a3f38c8ff"
+    },
+    {
+      "path": "Source/UnitedCenter_v001_LOD1.blend",
+      "bytes": 420201,
+      "sha256": "7405a483e3bd8b8bd96c808db9605acf361631879e74f857d5f970089a459826"
+    },
+    {
+      "path": "Source/UnitedCenter_v001_LOD2.blend",
+      "bytes": 305282,
+      "sha256": "ea7dbbaf3e4d87d69c375a70e7b3ada18b9a5a353837867203d65d67a3ac359c"
+    },
+    {
+      "path": "Source/UnitedCenter_v001_import.blend",
+      "bytes": 1031757,
+      "sha256": "893ad111f011906e726c6e4161854fb89fa80622ded7b4426d9ba13e90079d9e"
+    },
+    {
+      "path": "Source/UnitedCenter_v002.blend",
+      "bytes": 755338,
+      "sha256": "acc10365b222da65c6b3de0604a96bcb9155dcaeabfa4d9280326890323f7e34"
+    },
+    {
+      "path": "Source/UnitedCenter_v002_LOD1.blend",
+      "bytes": 427318,
+      "sha256": "5f9ea706f380c816794747c38bba1055aa4674334d39e267f250095c150f95df"
+    },
+    {
+      "path": "Source/UnitedCenter_v002_LOD2.blend",
+      "bytes": 359659,
+      "sha256": "732fba5a711eb206e6645d29444848fa051c527adcf7330e88a598b472d9d4e6"
+    },
+    {
+      "path": "Source/UnitedCenter_v003.blend",
+      "bytes": 831366,
+      "sha256": "cd477e34a25098632eb4aa7c30bed3bb6ed8f6c1cc119b3ab73b065336aae64a"
+    },
+    {
+      "path": "Source/UnitedCenter_v003_LOD1.blend",
+      "bytes": 440373,
+      "sha256": "964f5946d18aeebd2bd4763ae8f951665064d15b7c7dea5bd0fe921d54320991"
+    },
+    {
+      "path": "Source/UnitedCenter_v003_LOD2.blend",
+      "bytes": 373933,
+      "sha256": "b64417c9d7407317b2ca9c2c31b4d17c288d947e573ab75036951b300ba1a715"
+    },
+    {
+      "path": "Source/UnitedCenter_v004_import.blend",
+      "bytes": 1033856,
+      "sha256": "1103092fc3a8e6cf3773872e1e53a1a84ed128e569260910862fb018aaaff96b"
+    },
+    {
+      "path": "Source/UnitedCenter_v005_import.blend",
+      "bytes": 921354,
+      "sha256": "3853f9532fcac5875b35904aa99265973eecd49e82f376a8ab9b058fe1fb0323"
+    },
+    {
+      "path": "Source/UnitedCenter_v006_import.blend",
+      "bytes": 993417,
+      "sha256": "8459d57207697dd4ca6634aff3fb6982680a94c1c6e5b7f76fbc1cc112790488"
+    },
+    {
+      "path": "Source/UnitedCenter_v011.blend",
+      "bytes": 738188,
+      "sha256": "a91f42507214adfec111a2d10c0f7295173e920fb2abd5568aa2bcf6c683afaa"
+    },
+    {
+      "path": "Source/UnitedCenter_v011_LOD1.blend",
+      "bytes": 434865,
+      "sha256": "f90c88fb72f4bf08cbcb2b9608228e6bc623f2ec3caf8ee2b7a4047bc6cee6a4"
+    },
+    {
+      "path": "Source/UnitedCenter_v011_LOD2.blend",
+      "bytes": 385093,
+      "sha256": "e01adafdad39f8af2e9ad062cdd6626632d0c82acf77dafb57dd26d16a33851f"
+    },
+    {
+      "path": "Source/UnitedCenter_v011_import.blend",
+      "bytes": 925275,
+      "sha256": "574a0bcbd7227c7e0332a5f97041948cefa0327e8578a4e6edffeeabdd9f2c15"
+    },
+    {
+      "path": "Source/UnitedCenter_v012.blend",
+      "bytes": 751365,
+      "sha256": "b2f4311610e02ba83394f7b9c024a03c4b494bf96a07618755644910cf4eaf03"
+    },
+    {
+      "path": "Source/UnitedCenter_v012_LOD1.blend",
+      "bytes": 447873,
+      "sha256": "556ff394c0194104094854f2989137d1f7a4491ac0e6ee3747448c56e11eb2d3"
+    },
+    {
+      "path": "Source/UnitedCenter_v012_LOD2.blend",
+      "bytes": 398395,
+      "sha256": "e67f90949ac9d076ce351f5231d6eea1e8473d35b63126d3b03493da2005dcbb"
+    },
+    {
+      "path": "Source/UnitedCenter_v012_import.blend",
+      "bytes": 939868,
+      "sha256": "3b236aea7641ba35a7df46a94d1fc7b4eb06b393563822937fd00424aa104d17"
+    },
+    {
+      "path": "Source/UnitedCenter_v013.blend",
+      "bytes": 679693,
+      "sha256": "83a6471c18d030dd0a19f2ce2f5e634171e3d788732a82458bbf2758ce94065e"
+    },
+    {
+      "path": "Source/UnitedCenter_v013_LOD1.blend",
+      "bytes": 377499,
+      "sha256": "6c6d6a6c41784bafd11f1288dac59ce27c021d145d3ba9f4073fe4669d0a50e1"
+    },
+    {
+      "path": "Source/UnitedCenter_v013_LOD2.blend",
+      "bytes": 329235,
+      "sha256": "fc3afa36d0569995dfc590553f7b8d3f68a8958f05c5884bb350dde5e035a235"
+    },
+    {
+      "path": "Source/UnitedCenter_v013_import.blend",
+      "bytes": 859809,
+      "sha256": "af1b87091a2029945bf501b149a87d2e39999b754c4f65d384893927ca4e2f3e"
+    },
+    {
+      "path": "Source/UnitedCenter_v014.blend",
+      "bytes": 678130,
+      "sha256": "364b66dbb455a77fee9acd774a8c957af98de8b309509ebe83f8900d1e37e50c"
+    },
+    {
+      "path": "Source/UnitedCenter_v014_LOD1.blend",
+      "bytes": 378248,
+      "sha256": "1bf76fc860bf96d452ff1f3fca452e890b967c20c6e5688cbad28838eeeacd44"
+    },
+    {
+      "path": "Source/UnitedCenter_v014_LOD2.blend",
+      "bytes": 329496,
+      "sha256": "0d6f2daf8748670e1c0321769038c78b0054fd60053a8e9b438e54d7b964391a"
+    },
+    {
+      "path": "Source/UnitedCenter_v014_import.blend",
+      "bytes": 860834,
+      "sha256": "031fcddb40b431ba34409d8cf028862de5f818cae758430cd8bcc042fdb885f0"
+    },
+    {
+      "path": "Source/perimeter-layout-v007.json",
+      "bytes": 30409,
+      "sha256": "3fea367cce6a59d606684e39d3375a579602496f614e98bcd6000d1fcccaa2f4"
+    },
+    {
+      "path": "Source/perimeter-layout-v008.json",
+      "bytes": 33774,
+      "sha256": "0c3a0ab2e94f0f3804f5d294e2ab4702dbb12ffa23d1992e0cfe83ea861a02b3"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_AllWindows_Emissive.png",
+      "bytes": 21408,
+      "sha256": "6a403fd9c036f6beb2680656c269d718bd7fa62ab77060d78527f00e3c3af6af"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_BaseColor.png",
+      "bytes": 104148,
+      "sha256": "59b2d8d565e4ea60e1c3911da33ee9b7ce82207c3b55c4937f381e18ab37ed33"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_MaskMap.png",
+      "bytes": 77864,
+      "sha256": "b28e72a5bf5bf904b5fbfed034f501dd36989281909b10d554a262b2a5287345"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_Pattern1_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_Pattern2_Emissive.png",
+      "bytes": 81038,
+      "sha256": "31c1a839fb942b324bc8455d84749048170773e73a99ad96557e30d8ecb57af0"
+    },
+    {
+      "path": "Textures/UnitedCenterV11_Pattern3_Emissive.png",
+      "bytes": 81370,
+      "sha256": "0043c7b8403646bf344d1f0ec427785173f9363e9eb021a03294c9f98730041f"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_AllWindows_Emissive.png",
+      "bytes": 21408,
+      "sha256": "6a403fd9c036f6beb2680656c269d718bd7fa62ab77060d78527f00e3c3af6af"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_BaseColor.png",
+      "bytes": 104148,
+      "sha256": "59b2d8d565e4ea60e1c3911da33ee9b7ce82207c3b55c4937f381e18ab37ed33"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_MaskMap.png",
+      "bytes": 77864,
+      "sha256": "b28e72a5bf5bf904b5fbfed034f501dd36989281909b10d554a262b2a5287345"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_Pattern1_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_Pattern2_Emissive.png",
+      "bytes": 81038,
+      "sha256": "31c1a839fb942b324bc8455d84749048170773e73a99ad96557e30d8ecb57af0"
+    },
+    {
+      "path": "Textures/UnitedCenterV12_Pattern3_Emissive.png",
+      "bytes": 81370,
+      "sha256": "0043c7b8403646bf344d1f0ec427785173f9363e9eb021a03294c9f98730041f"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_AllWindows_Emissive.png",
+      "bytes": 21408,
+      "sha256": "6a403fd9c036f6beb2680656c269d718bd7fa62ab77060d78527f00e3c3af6af"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_BaseColor.png",
+      "bytes": 288674,
+      "sha256": "3c68f21f726800786782c2dc673390e6c30f85234be96ec96643dbdd965c82e0"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_GlobeMask.png",
+      "bytes": 42788,
+      "sha256": "c1b8b21b2176806e5e4312b0c33f9f93a1a0fa30f00fb53e0cae159ba3deba61"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_MaskMap.png",
+      "bytes": 79779,
+      "sha256": "5bec3bd3cd92292467f85f48e57106eb20ce2117fc52700b9282c24348599cc9"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_Pattern1_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_Pattern2_Emissive.png",
+      "bytes": 81038,
+      "sha256": "31c1a839fb942b324bc8455d84749048170773e73a99ad96557e30d8ecb57af0"
+    },
+    {
+      "path": "Textures/UnitedCenterV13_Pattern3_Emissive.png",
+      "bytes": 81370,
+      "sha256": "0043c7b8403646bf344d1f0ec427785173f9363e9eb021a03294c9f98730041f"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_AllWindows_Emissive.png",
+      "bytes": 21408,
+      "sha256": "6a403fd9c036f6beb2680656c269d718bd7fa62ab77060d78527f00e3c3af6af"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_BaseColor.png",
+      "bytes": 288674,
+      "sha256": "3c68f21f726800786782c2dc673390e6c30f85234be96ec96643dbdd965c82e0"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_GlobeMask.png",
+      "bytes": 42788,
+      "sha256": "c1b8b21b2176806e5e4312b0c33f9f93a1a0fa30f00fb53e0cae159ba3deba61"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_MaskMap.png",
+      "bytes": 79779,
+      "sha256": "5bec3bd3cd92292467f85f48e57106eb20ce2117fc52700b9282c24348599cc9"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_Pattern1_Emissive.png",
+      "bytes": 81214,
+      "sha256": "0a8fd5cfc47426d6ad9864bdbaf79e7c365e0dfcb81f7a46c097e0bf616ef652"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_Pattern2_Emissive.png",
+      "bytes": 81038,
+      "sha256": "31c1a839fb942b324bc8455d84749048170773e73a99ad96557e30d8ecb57af0"
+    },
+    {
+      "path": "Textures/UnitedCenterV14_Pattern3_Emissive.png",
+      "bytes": 81370,
+      "sha256": "0043c7b8403646bf344d1f0ec427785173f9363e9eb021a03294c9f98730041f"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_BaseColor.png",
+      "bytes": 104172,
+      "sha256": "9871f51ea53f1dfede977c1c266be33ecedeeee5c594d2ea6475a585300f41bb"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_Emissive.png",
+      "bytes": 80031,
+      "sha256": "b1520cf4e93d4e731ed3eb43bfe0de93d62b287183ffacd3dd0d104d236bc021"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_MaskMap.png",
+      "bytes": 76684,
+      "sha256": "d577905fdfdf783280cef4388095d32e007bd91bc106b5267320519670dbb766"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_Pattern1_Emissive.png",
+      "bytes": 80031,
+      "sha256": "b1520cf4e93d4e731ed3eb43bfe0de93d62b287183ffacd3dd0d104d236bc021"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_Pattern2_Emissive.png",
+      "bytes": 80283,
+      "sha256": "ddca2caf0211fef12b8bdcdb5367bc69d654fa5c3eb475ac84493996cddc1b94"
+    },
+    {
+      "path": "Textures/UnitedCenterV1_Pattern3_Emissive.png",
+      "bytes": 80355,
+      "sha256": "0e1f112aa74b4a82c77784757877639dd40237b0551a661e5a420385d2329099"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_BaseColor.png",
+      "bytes": 104172,
+      "sha256": "9871f51ea53f1dfede977c1c266be33ecedeeee5c594d2ea6475a585300f41bb"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_Emissive.png",
+      "bytes": 80031,
+      "sha256": "b1520cf4e93d4e731ed3eb43bfe0de93d62b287183ffacd3dd0d104d236bc021"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_MaskMap.png",
+      "bytes": 76684,
+      "sha256": "d577905fdfdf783280cef4388095d32e007bd91bc106b5267320519670dbb766"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_Pattern1_Emissive.png",
+      "bytes": 80031,
+      "sha256": "b1520cf4e93d4e731ed3eb43bfe0de93d62b287183ffacd3dd0d104d236bc021"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_Pattern2_Emissive.png",
+      "bytes": 80283,
+      "sha256": "ddca2caf0211fef12b8bdcdb5367bc69d654fa5c3eb475ac84493996cddc1b94"
+    },
+    {
+      "path": "Textures/UnitedCenterV4_Pattern3_Emissive.png",
+      "bytes": 80355,
+      "sha256": "0e1f112aa74b4a82c77784757877639dd40237b0551a661e5a420385d2329099"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_BaseColor.png",
+      "bytes": 104172,
+      "sha256": "9871f51ea53f1dfede977c1c266be33ecedeeee5c594d2ea6475a585300f41bb"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_Emissive.png",
+      "bytes": 80031,
+      "sha256": "b1520cf4e93d4e731ed3eb43bfe0de93d62b287183ffacd3dd0d104d236bc021"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_MaskMap.png",
+      "bytes": 76684,
+      "sha256": "d577905fdfdf783280cef4388095d32e007bd91bc106b5267320519670dbb766"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_Pattern1_Emissive.png",
+      "bytes": 80031,
+      "sha256": "b1520cf4e93d4e731ed3eb43bfe0de93d62b287183ffacd3dd0d104d236bc021"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_Pattern2_Emissive.png",
+      "bytes": 80283,
+      "sha256": "ddca2caf0211fef12b8bdcdb5367bc69d654fa5c3eb475ac84493996cddc1b94"
+    },
+    {
+      "path": "Textures/UnitedCenterV5_Pattern3_Emissive.png",
+      "bytes": 80355,
+      "sha256": "0e1f112aa74b4a82c77784757877639dd40237b0551a661e5a420385d2329099"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_AllWindows_Emissive.png",
+      "bytes": 21407,
+      "sha256": "2727263b0fceb0d169f315f280ad6747a4d9c6e0901a232be0f083a40ac47792"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_BaseColor.png",
+      "bytes": 104161,
+      "sha256": "9014b442179cf1173204bd7fc2183d58647adc3b2589e72f9e3381a4319ca9c0"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_ControlMask.png",
+      "bytes": 73562,
+      "sha256": "780b00028040ce674eb182c884ab891adbb7b4b516580ed4b84863ef0d5893d2"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_Emissive.png",
+      "bytes": 80540,
+      "sha256": "93a57e635215405e1d27486dc4e5cf57057e6996f5d42bcc22000909e5cccca1"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_MaskMap.png",
+      "bytes": 77201,
+      "sha256": "d16ade7ba4cbf6bbac3f05279e0b9c2d1bb64fbda8867231547ecd04b705b317"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_Normal.png",
+      "bytes": 78300,
+      "sha256": "ae52b893ea97f9d4f8e32664b4e5d4c7c697579a9779d7dca7a30abcfdea76c9"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_Pattern1_Emissive.png",
+      "bytes": 80540,
+      "sha256": "93a57e635215405e1d27486dc4e5cf57057e6996f5d42bcc22000909e5cccca1"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_Pattern2_Emissive.png",
+      "bytes": 81009,
+      "sha256": "47230801001671a5ff119aa052f517a18ec5cca952e742993e6965f3fbf94136"
+    },
+    {
+      "path": "Textures/UnitedCenterV6_Pattern3_Emissive.png",
+      "bytes": 80700,
+      "sha256": "e715d8df6d74cebc476b6563440fd8ba18a988fbbad67bb6e6151e55cf6ef96d"
+    }
+  ],
+  "nativeDefinitionFiles": 107
+}
