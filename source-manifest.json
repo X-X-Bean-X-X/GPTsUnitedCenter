@@ -1,8 +1,8 @@
 {
   "asset": "GPT's United Center",
   "author": "X_Bean_X",
-  "publishedVersion": "1.1.0",
-  "publishedPackageSHA256": "ac46989ee53f55b3e1507b4df55887573d5e31a60d58d0f449319a2640864db0",
+  "publishedVersion": "2.0.1",
+  "publishedPackageSHA256": "a228f365b81370e1775fc6f9b70e4831467158bfc962987347afb1f055173b22",
   "authoringFiles": [
     {
       "path": "Evidence/live_site_survey.json",
@@ -655,5 +655,5 @@
       "sha256": "e715d8df6d74cebc476b6563440fd8ba18a988fbbad67bb6e6151e55cf6ef96d"
     }
   ],
-  "nativeDefinitionFiles": 107
+  "nativeDefinitionFiles": 115
 }

@@ -2,7 +2,9 @@
 
 Editable asset source by **X_Bean_X** for Cities: Skylines II.
 
-[Paradox Mods listing](https://mods.paradoxplaza.com/mods/164443/Any) — published version **1.1.0**.
+[Paradox Mods listing](https://mods.paradoxplaza.com/mods/164443/Any) — published version **2.0.1**.
+
+Version 2.0.1 restores the white roof, lettering and globe and adds a 500-space underground garage with access on West Madison Street.
 
 ## Contents
 
@@ -20,7 +22,7 @@ The playable asset remains available through Paradox Mods. This source publicati
 
 ## Provenance
 
-Current public package SHA-256: `ac46989ee53f55b3e1507b4df55887573d5e31a60d58d0f449319a2640864db0`. Both the public download and its inner package passed ZIP integrity checks. Source archives were checked after creation.
+Current public package SHA-256: `a228f365b81370e1775fc6f9b70e4831467158bfc962987347afb1f055173b22`. Both the public download and its inner package passed ZIP integrity checks. Source archives were checked after creation.
 
 No additional reuse license is granted by this source publication.
 
